@@ -46,7 +46,14 @@ Amazon Linux AMI-2018:
 Leap-15: {}
 
 # os: FreeBSD
-FreeBSD-12: {}
+FreeBSD-12:
+  dbus:
+    run_service: false
+
+# os: OpenBSD
+OpenBSD-6.8:
+  dbus:
+    run_service: false
 
 # os: Windows
 Windows-8.1: {}

@@ -31,3 +31,6 @@ Manjaro: {}
 
 # os_family: Solaris
 SmartOS: {}
+
+FreeBSD: {}
+OpenBSD: {}
